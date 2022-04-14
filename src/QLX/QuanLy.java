@@ -1,12 +1,14 @@
 package QLX;
 
+import java.util.LinkedList;
+
 public interface QuanLy<T> {
     void run();
     int chonMenu();
     void them();
     void sua();
     void xoa();
-    void timKiem();
+    int[] timKiem();
     void inTatCa();
     void sapXep();
 }
